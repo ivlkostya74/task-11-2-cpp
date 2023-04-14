@@ -2,7 +2,7 @@
 #pragma once
 #include <iostream>
 
-#ifdef DynamicLibrory_EXPORTS
+#ifdef DINAMICLIB_EXPORTS
 #define LEAVERDYNAMIC_API __declspec(dllexport)
 #else
 #define LEAVERDYNAMIC_API __declspec(dllimport)
